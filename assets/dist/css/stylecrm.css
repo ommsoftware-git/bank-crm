@@ -4839,3 +4839,12 @@ table.text-center th {
     font-size: 16px;
   }
 }
+
+.content-wrapper {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.content-wrapper::-webkit-scrollbar {
+  width: 0px;
+}
